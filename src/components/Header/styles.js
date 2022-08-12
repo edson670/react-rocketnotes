@@ -46,11 +46,14 @@ export const Profile = styled.div`
 `
 
 export const Logout = styled.button`
+    display: flex;
+    align-items: center;
     border: none;
     background: none;
 
     >svg {
         color: ${({ theme }) => theme.COLORS.GRAY_100 };
         font-size: 36px;
+
     }
 `

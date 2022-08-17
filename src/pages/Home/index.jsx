@@ -49,4 +49,4 @@ export function Home(){
             </NewNote>
         </Container>
     )
-}
+} 

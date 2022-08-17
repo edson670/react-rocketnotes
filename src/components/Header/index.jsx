@@ -1,10 +1,11 @@
 import { Container, Profile, Logout} from "./styles";
 import { RiShutDownLine} from 'react-icons/ri'
 
+
 export function Header(){
     return(
         <Container>
-            <Profile>
+            <Profile to="/profile">
                 <img src="https://github.com/edson670.png" alt="foto do usuario"/>
                 
                 <div>
